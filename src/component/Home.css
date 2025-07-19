@@ -3,3 +3,13 @@
   margin: 0;
   background: linear-gradient(to bottom, #bee4eb, #c1c7ddff);
 } */
+
+.Bear-img {
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 300px;
+  pointer-events: none;
+}

@@ -65,7 +65,6 @@ const CircularAnimation = () => {
       ref={boxRef}
       style={{
         width: "500px",
-        border: "1px solid black",
         margin: "20px auto",
         display: "grid",
         gridTemplateColumns: `repeat(${cols}, ${baseSize + gap}px)`,
