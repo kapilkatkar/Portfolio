@@ -72,7 +72,8 @@ const CircularAnimation = () => {
         alignContent: "center",
         padding: `${gap / 2}px`,
         boxSizing: "content-box",
-        backgroundColor: "#f5f5f5",
+        background:
+          "linear-gradient(to right, #ffffff 0%, #f3f4f6 50%, #ffffff 100%)",
       }}
     >
       {circles}
