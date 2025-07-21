@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import CircularAnimation from "./circularAnimation";
 import bearImage from "../assets/bear.png";
 import Skills from "./skills";
+import Footer from "./Footer";
 const Home = () => {
   return (
     <div>
@@ -74,6 +75,7 @@ const Home = () => {
             </li>
           </ul>
         </section>
+        <Footer></Footer>
       </main>
     </div>
   );
