@@ -3,6 +3,7 @@ import Headers from "./Header";
 import { Link } from "react-router-dom";
 import CircularAnimation from "./circularAnimation";
 import bearImage from "../assets/bear.png";
+import Skills from "./skills";
 const Home = () => {
   return (
     <div>
@@ -40,11 +41,38 @@ const Home = () => {
             aim for scalable, accessible, and maintainable code.
           </p>
           <p>
-            I'm constantly learning and improving — currently exploring deeper
-            concepts in React performance, testing, and animation libraries.
-            When I'm not coding, I enjoy exploring design trends, sharing tips
-            with the dev community, and refining my portfolio.
+            I’m constantly learning and evolving - currently diving deeper into
+            React performance, testing strategies, animation libraries, and
+            exploring the exciting field of Generative AI development.
           </p>
+        </section>
+        <Skills></Skills>
+        <section id="aspiration" className="aspiration-section">
+          <h2>Aspiration</h2>
+          <p className="aspiration-intro">
+            As a passionate Front-End Developer, here’s what I’m aiming for:
+          </p>
+          <ul className="aspiration-list">
+            <li> Build high-performance, accessible, and scalable web apps.</li>
+            <li>
+              Dive deeper into React architecture, performance, and testing.
+            </li>
+            <li>
+              Craft intuitive user experiences with elegant, clean design.
+            </li>
+            <li>
+              Collaborate on impactful projects with like-minded developers.
+            </li>
+            <li> Explore animation, micro-interactions, and design systems.</li>
+            <li>
+              Leverage Generative AI to enhance web interactions intelligently.
+            </li>
+            <li>
+              Continuously grow toward becoming a&nbsp;
+              <b>Senior Technology Architect</b> - leading front-end strategy,
+              architecture, and innovation at scale.
+            </li>
+          </ul>
         </section>
       </main>
     </div>

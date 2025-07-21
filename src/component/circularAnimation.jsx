@@ -49,9 +49,8 @@ const CircularAnimation = () => {
         style={{
           width: `${baseSize}px`,
           height: `${baseSize}px`,
-          border: "1px solid black",
           borderRadius: "50%",
-          background: "black",
+          background: "var(--primary-color)",
           margin: `${gap / 2}px`,
           transform: `scale(${scale})`,
           transformOrigin: "center",
@@ -73,7 +72,7 @@ const CircularAnimation = () => {
         padding: `${gap / 2}px`,
         boxSizing: "content-box",
         background:
-          "linear-gradient(to right, #ffffff 0%, #f3f4f6 50%, #ffffff 100%)",
+          "linear-gradient(to right, var(--card-bg) 0%, var(--background-color) 50%, var(--card-bg) 100%)",
       }}
     >
       {circles}
