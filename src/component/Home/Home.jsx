@@ -1,10 +1,10 @@
 import "./Home.css";
-import Headers from "./Header";
+import Headers from "../Header/Header";
 import { Link } from "react-router-dom";
-import CircularAnimation from "./circularAnimation";
-import bearImage from "../assets/bear.png";
-import Skills from "./skills";
-import Footer from "./Footer";
+import CircularAnimation from "../circularAnimation";
+import bearImage from "../../assets/bear.png";
+import Skills from "../Skills/Skills";
+import Footer from "../Footer/Footer";
 const Home = () => {
   return (
     <div>
