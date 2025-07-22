@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import bearImage from "../../assets/bear3.png";
 import "./Footer.css";
 import { FaLinkedin, FaGithub, FaArrowUp } from "react-icons/fa";

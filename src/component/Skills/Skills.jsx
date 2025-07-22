@@ -1,4 +1,3 @@
-import React from "react";
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaGitAlt } from "react-icons/fa";
 import {
   SiTypescript,

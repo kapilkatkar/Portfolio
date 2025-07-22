@@ -1,0 +1,71 @@
+.about-container {
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.about-container h2 {
+  text-align: left;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.about-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  background-color: var(--card-bg);
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.left-side {
+  flex: 1;
+  text-align: center;
+  min-width: 200px;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 3px solid var(--primary-color);
+}
+
+.name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: var(--primary-color);
+}
+
+.email,
+.company-info,
+.location {
+  font-size: 0.95rem;
+  color: var(--text-color);
+  margin-bottom: 6px;
+  margin-top: 6px;
+}
+
+.right-side {
+  flex: 2;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.right-side > div {
+  margin-bottom: 20px;
+}
+
+.about-me ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.about-me li {
+  margin-bottom: 10px;
+}

@@ -1,0 +1,48 @@
+.contact-card-container {
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-card {
+  display: flex;
+  gap: 20px;
+  background-color: var(--card-bg);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  align-items: center;
+}
+
+.left-side {
+  flex: 1;
+  text-align: center;
+}
+
+.profile-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.right-side {
+  flex: 2;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.intro-message {
+  text-align: center;
+}
+
+.intro-message a {
+  color: var(--accent-color);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.intro-message a:hover {
+  text-decoration: underline;
+}
