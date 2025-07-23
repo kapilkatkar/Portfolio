@@ -5,7 +5,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Project from "./component/Projects/projects";
 import SkillComp from "./component/SkillComp/SkillComp";
 import About from "./component/About/About";
-import ContactCard from "./component/Contact/Contact";
+import ChatBot from "./component/ChatBot/ChatBot";
 
 const router = createBrowserRouter([
   {
@@ -29,8 +29,8 @@ const router = createBrowserRouter([
     errorElement: <div>Error</div>,
   },
   {
-    path: "/Contact",
-    element: <ContactCard />,
+    path: "/ChatBot",
+    element: <ChatBot />,
     errorElement: <div>Error</div>,
   },
 ]);

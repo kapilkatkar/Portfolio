@@ -41,7 +41,7 @@ const Headers = () => {
           <Link to="/Skills">Skills</Link>
         </li>
         <li>
-          <Link to="/contact">Contact</Link>
+          <Link to="/ChatBot">Kapil-bot</Link>
         </li>
       </ul>
       <ul className="right-links">
