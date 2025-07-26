@@ -3,12 +3,13 @@ import { Link } from "react-router-dom";
 import "./Header.css";
 import { IoMoonSharp } from "react-icons/io5";
 import { MdOutlineWbSunny } from "react-icons/md";
+import { GiIndiaGate } from "react-icons/gi";
 
 const Headers = () => {
   const [isDark, setIsDark] = useState(() => {
     return localStorage.getItem("theme") === "dark";
   });
-
+  const linearG = "linear-gradient(135deg, #FF9933, #FFFFFF, #138808)";
   const toggleTheme = () => {
     setIsDark((prev) => !prev);
   };
@@ -45,6 +46,7 @@ const Headers = () => {
         </li>
       </ul>
       <ul className="right-links">
+        <GiIndiaGate style={{ fontSize: "1.5rem", background: linearG }} />
         <li
           onClick={toggleTheme}
           style={{ cursor: "pointer", fontSize: "1.5rem" }}
