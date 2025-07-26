@@ -2,7 +2,7 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import Home from "./component/Home/Home";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Project from "./component/Projects/projects";
+import Project from "./component/Projects/Projects";
 import SkillComp from "./component/SkillComp/SkillComp";
 import About from "./component/About/About";
 import ChatBot from "./component/ChatBot/ChatBot";
