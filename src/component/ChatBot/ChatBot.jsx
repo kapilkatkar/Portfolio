@@ -116,7 +116,6 @@ const ChatBot = () => {
           )}
         </section>
 
-        {/* Input form at the bottom */}
         <form className="input-container" onSubmit={handleSubmit}>
           <div className="input-row">
             <input
@@ -127,7 +126,7 @@ const ChatBot = () => {
               required
               autoComplete="off"
             />
-            <button type="submit" className="send-btn">
+            <button type="submit" className="send-btn" disabled={loading}>
               <FaArrowRight />
             </button>
             <FaMicrophone />
