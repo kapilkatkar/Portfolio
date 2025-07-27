@@ -7,7 +7,7 @@ Welcome to my personal front-end developer portfolio, built with **React**, **Re
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 - React.js
 - React Router DOM
@@ -18,7 +18,7 @@ Welcome to my personal front-end developer portfolio, built with **React**, **Re
 
 ---
 
-## 📂 Features
+## Features
 
 - ✅ Clean, responsive UI with dark/light theme support
 - ✅ Sections: Home, About, Projects, Skills, and Contact
